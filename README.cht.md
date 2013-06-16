@@ -14,7 +14,7 @@ Our primary goal is to tighten the feedback loop between the editors of web stan
 
 Browser vendors should provide new low-level capabilities that expose the possibilities of the underlying platform as closely as possible. They should seed the discussion of high-level APIs through JavaScript implementations of new features (as done in the cases of [Mozilla’s X-Tags](http://www.x-tags.org/) and [Google’s Polymer](http://www.polymer-project.org/)). This involves web developers in the process and by iterating outside of the browser, avoids the platform getting stuck with bad APIs.
 
-瀏覽器供應商應該提供，可以顯露下層平台所有可能性的新低階能力。藉由 JavaScript 的實作結果，為高階 API 相關討論播種（就像[ Mozilla 的 X-Tags ](http://www.x-tags.org)與[ Google 的 Polymer ]正在做的）。讓開發者能在瀏覽器外參與標準化過程，避免平台本身被壞 API 卡住。
+瀏覽器供應商應該提供，可以顯露下層平台所有可能性的新低階能力。藉由 JavaScript 的實作結果，為高階 API 相關討論播種（就像[ Mozilla 的 X-Tags ](http://www.x-tags.org/)與[ Google 的 Polymer ](http://www.polymer-project.org/)正在做的）。讓開發者能在瀏覽器外參與標準化過程，避免平台本身被壞 API 卡住。
 
 Specifically, we offer the following design principles for an Extensible Web Platform:
 * The standards process should focus on adding ***_new low-level capabilities_*** to the web platform that are secure and efficient.
