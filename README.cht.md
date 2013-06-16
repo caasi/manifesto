@@ -23,10 +23,10 @@ Specifically, we offer the following design principles for an Extensible Web Pla
 * The standards process should ***_prioritize efforts_*** that follow these recommendations and deprioritize and refocus those which do not.
 
 具體地說，我們對可擴充的全球資訊網，提出以下設計原則：
-* 標準過程應該專注在為網頁平台增加安全且有效率的***_新低階能力_***。
-* 網頁平台應該揭露，可以***_解釋現有功能_***的低階能力，例如 HTML 與 CSS ，讓開發者能瞭解並重製它們。
-* 網頁平台應該以 JavaScript 開發、描述與測試新的高階功能，使開發者在這些功能標準化前能漸進改善它們。這在標準與開發者間建立起一種***_良善的循環_***。
-* 標準過程應該***_優先處理_***那些遵循以上建議的工作，反之則並降低它們的優先權。
+* 標準過程應該專注在為網頁平台增加安全且有效率的 ***_新低階能力_*** 。
+* 網頁平台應該揭露，可以 ***_解釋現有功能_*** 的低階能力，例如 HTML 與 CSS ，讓開發者能瞭解並重製它們。
+* 網頁平台應該以 JavaScript 開發、描述與測試新的高階功能，使開發者在這些功能標準化前能漸進改善它們。這在標準與開發者間建立起一種 ***_良善的循環_*** 。
+* 標準過程應該 ***_優先處理_*** 那些遵循以上建議的工作，反之則並降低它們的優先權。
 
 ------
 
