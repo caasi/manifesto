@@ -35,10 +35,20 @@ By focusing on standardizing ***_new low-level capabilities_***, and building ne
 * Allow optimizations in browser engines to focus on the stable core, which affects more APIs as they are added. This leads to better performance with less implementation effort.
 * Allow browser vendors and library authors to iterate on libraries that provide developer-friendly, high-level APIs.
 
+藉由專注在標準化 ***_新低階能力_*** ，並以它們建造新功能，我們：
+* 包含了新的安全面。
+* 讓瀏覽器引擎能專心最佳化，影響到越來越多新 API ，的穩定核心。讓它有更高的效率，並節省實作的工夫。
+* 云許瀏覽器供應商與函式庫作者能逐漸改進函式庫，提供對開發者友善，高階的 API 。
+
 By explaining existing and new features ***_in terms of low-level capabilities_***, we:
 * Reduce the rate of growth in complexity, and therefore bugs, in implementations.
 * Make it possible to polyfill more of the platform's new features.
 * Require less developer education for new features. Educational materials can build off of concepts that are already in the platform.
+
+藉由 ***_以低階能力_*** 解釋現有功能，我們：
+* 降低了實作中，複雜度的增長率，也降低了臭蟲的增長率。
+* 可以手動填補出更多，平台上的新功能。
+* 降低對新功能的教育訓練。訓練材料可以建立在本台本身就具備的概念上。
 
 Making new features easy to understand and polyfill introduces a ***_virtuous cycle_***:
 * Developers can ramp up more quickly on new APIs, providing quicker feedback to the platform while the APIs are still the most malleable.
@@ -120,3 +130,8 @@ Member, CSS WG; Google
 * [An Extensible Approach to Browser Security Policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/), by Yehuda Katz, which presents a practical application of these principles to the problem of designing an API for the browser's Content Security Policy.
 * [Dropping the F-Bomb on Web Standards](https://briankardell.wordpress.com/2013/05/17/dropping-the-f-bomb/), by Brian Kardell, a practical discussion of how ideas and language from the developer community can be integrated back into interoperable standards.
 * [Bedrock](http://infrequently.org/2012/04/bedrock/), by Alex Russell, a 2012 post that explores, in-depth, the philosophy and practice of designing the platform in an extensible ("layered") way.
+
+Translation Notes
+-----------------
+
+* 降低教育訓練那部份，我的理解是，如果平台提供得功能夠低階，那當一個新手想了解 JavaScript 怎麼做 prototype 繼承時，可以直接使用那些低階功能重建這個部份，或是看看官方的 code ，得到第一手答案。
